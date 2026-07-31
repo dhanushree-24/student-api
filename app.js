@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
     res.send("Welcome to github actions");
 });
 
-const port = process.env.PORT || 3000;
+const  PORT= process.env.PORT || 3000;
 
 app.listen(port, () => {
     console.log(`Server is running on ${port}`);
